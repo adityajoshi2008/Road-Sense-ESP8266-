@@ -1,40 +1,87 @@
-# 🛣️ RoadSense
+# 🚧 RoadSense
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-RoadSense%20PWA-brightgreen?style=for-the-badge&logo=googlechrome)](https://roadsense-pwa-ka6v.bolt.host)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+### 🌐 Smart Road Monitoring • ESP32 • IoT • Web Dashboard
 
-> **Navigating the roads smarter and safer.** RoadSense connects directly to your mobile device to deliver a seamless, real-time safety and navigation experience.
+<p align="center">
+  <strong>Detect. Connect. Visualize.</strong><br>
+  An ESP32-based system for monitoring road irregularities using motion sensing and a connected web dashboard.
+</p>
 
----
+<p align="center">
 
-## 📱 Live Web App
+[![ESP32](https://img.shields.io/badge/ESP32-IoT-blue?style=for-the-badge\&logo=espressif)](https://www.espressif.com/)
+[![KiCad](https://img.shields.io/badge/KiCad-PCB%20Design-red?style=for-the-badge\&logo=kicad)](https://www.kicad.org/)
+[![C++](https://img.shields.io/badge/C%2FC%2B%2B-Firmware-blue?style=for-the-badge\&logo=cplusplus)](https://isocpp.org/)
+[![MPU6050](https://img.shields.io/badge/MPU6050-Motion%20Sensor-orange?style=for-the-badge)](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/)
+[![Status](https://img.shields.io/badge/Status-Prototype-yellow?style=for-the-badge)](#-project-status)
 
-Experience RoadSense directly on your phone or web browser:
+</p>
 
-👉 **[Launch RoadSense PWA](https://roadsense-pwa-ka6v.bolt.host)**
-
----
-
-## ✨ Key Features
-
-* 📱 **Mobile-First PWA:** Fully responsive Progressive Web App tailored for smartphone interfaces.
-* ⚡ **Real-Time Sync:** Fast, interactive data connection directly through your phone.
-* 🛡️ **Driver Awareness:** Built with intelligent hardware and sensor integration in mind.
-* 🌐 **Cross-Platform:** Access instantly from any web browser without app store installations.
-
----
-
-## 🛠️ Tech Stack
-
-![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![PWA](https://img.shields.io/badge/PWA-Ready-5A0FC8?style=for-the-badge&logo=pwa)
+<p align="center">
+  <a href="https://roadsense-pwa-ka6v.bolt.host/">
+    <img src="https://img.shields.io/badge/🚀%20OPEN%20ROADSense%20DASHBOARD-00C853?style=for-the-badge" alt="Open RoadSense Dashboard">
+  </a>
+</p>
 
 ---
 
-## 🚀 Getting Started
+## 🧭 Navigate
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YOUR-USERNAME/RoadSense.git](https://github.com/YOUR-USERNAME/RoadSense.git)
+**[🚀 Dashboard](#-live-dashboard)** •
+**[⚡ How It Works](#-how-it-works)** •
+**[🔧 Hardware](#-hardware)** •
+**[📐 PCB](#-pcb-design)** •
+**[🌐 IoT](#-connected-road-monitoring)** •
+**[🔮 Roadmap](#-future-roadmap)**
+
+---
+
+# 🚀 Live Dashboard
+
+### 🌐 RoadSense Web App
+
+> **Your road data, accessible from anywhere.**
+
+<p align="center">
+
+### 👉 [OPEN THE ROADSense DASHBOARD](https://roadsense-pwa-ka6v.bolt.host/)
+
+</p>
+
+The RoadSense system is designed to connect the embedded hardware with a web-based interface so that road-condition information can be viewed from a **phone, laptop, or desktop browser**.
+
+📱 **Mobile friendly**
+💻 **Web based**
+📡 **IoT connected**
+
+---
+
+# 🧠 What is RoadSense?
+
+RoadSense is an **ESP32-based smart road monitoring system** that uses an **MPU6050 accelerometer and gyroscope** to detect sudden changes in vehicle motion.
+
+The basic idea is simple:
+
+```text
+🚗 Vehicle
+   │
+   ▼
+📈 Motion changes
+   │
+   ▼
+🧠 ESP32
+   │
+   ├──────────────► 🖥️ OLED
+   │
+   ▼
+📡 Wi-Fi
+   │
+   ▼
+🌐 RoadSense Web
+   │
+   ▼
+📱 User
+```
+
+Instead of keeping sensor
+
